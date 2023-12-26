@@ -1,0 +1,33 @@
+<!-- novo-leed-form.component.html -->
+<div class="form-container">
+  <form #leedForm="ngForm">
+    <p>Nome( deve ter no minimo 10 caracteres)</p>
+    <po-input id="nome" name="nome" [(ngModel)]="cliente.nome" label="Nome" required minlength="10"></po-input>
+
+    <p>Estado</p>
+    <po-input id="estado" name="estado" [(ngModel)]="cliente.endereco.estado" label="Estado" required></po-input>
+
+    <p>Cidade</p>
+    <po-input id="cidade" name="cidade" [(ngModel)]="cliente.endereco.cidade" label="Cidade" required></po-input>
+
+    <p>Bairro</p>
+    <po-input id="bairro" name="bairro" [(ngModel)]="cliente.endereco.bairro" label="Bairro" required></po-input>
+
+    <p>Rua</p>
+    <po-input id="rua" name="rua" [(ngModel)]="cliente.endereco.rua" label="Rua" required></po-input>
+
+    <p>Numero</p>
+    <po-input id="numero" name="numero" [(ngModel)]="cliente.endereco.numero" label="Número" required></po-input>
+
+    <p>Telefone</p>
+    <po-input id="telefone" name="telefone" [(ngModel)]="cliente.contatos[0].numeroTelefone" label="Telefone" required></po-input>
+
+    <p>Email</p>
+    <po-input id="email" name="email" [(ngModel)]="cliente.contatos[0].email" label="Email" required></po-input>
+
+    <p>Salvar</p>
+    <po-button (click)="enviarFormulario()">
+      Enviar
+    </po-button>
+  </form>
+</div>

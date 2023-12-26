@@ -1,0 +1,14 @@
+<div class="form-container">
+  <form #telefoneForm="ngForm">
+    <po-input
+      [(ngModel)]="telefone"
+      name="telefone"
+      label="Telefone"
+      placeholder="(xx) xxxxx-xxxx"
+      required
+      pattern="^\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
+    ></po-input>
+
+    <po-button [p-disabled]="!telefoneForm.valid">Enviar</po-button>
+  </form>
+</div>

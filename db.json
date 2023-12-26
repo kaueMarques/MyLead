@@ -1,0 +1,174 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "endereco": {
+        "estado": "São Paulo",
+        "cidade": "São Paulo",
+        "bairro": "Centro",
+        "rua": "Rua A",
+        "numero": "123"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "111111111",
+          "email": "joao.silva@email.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "endereco": {
+        "estado": "Rio de Janeiro",
+        "cidade": "Rio de Janeiro",
+        "bairro": "Copacabana",
+        "rua": "Avenida B",
+        "numero": "456"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "222222222",
+          "email": "maria.oliveira@email.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Santos",
+      "endereco": {
+        "estado": "Minas Gerais",
+        "cidade": "Belo Horizonte",
+        "bairro": "Savassi",
+        "rua": "Rua C",
+        "numero": "000000003"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "333333333",
+          "email": "carlos.santos@email.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Ana Souza",
+      "endereco": {
+        "estado": "Bahia",
+        "cidade": "Salvador",
+        "bairro": "Itapuã",
+        "rua": "Rua D",
+        "numero": "1011"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "444444444",
+          "email": "ana.souza@email.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Pedro Lima",
+      "endereco": {
+        "estado": "Ceará",
+        "cidade": "Fortaleza",
+        "bairro": "Meireles",
+        "rua": "Avenida E",
+        "numero": "0000000005"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "000000005",
+          "email": "pedro.lima@email.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Camila Rocha",
+      "endereco": {
+        "estado": "Pernambuco",
+        "cidade": "Recife",
+        "bairro": "Boa Viagem",
+        "rua": "Rua F",
+        "numero": "1415"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "666666666",
+          "email": "camila.rocha@email.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Lucas Pereira",
+      "endereco": {
+        "estado": "Paraná",
+        "cidade": "Curitiba",
+        "bairro": "Batel",
+        "rua": "Rua G",
+        "numero": "1617"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "777777777",
+          "email": "lucas.pereira@email.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Fernanda Santos",
+      "endereco": {
+        "estado": "Santa Catarina",
+        "cidade": "Florianópolis",
+        "bairro": "Centro",
+        "rua": "Rua H",
+        "numero": "1819"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "888888888",
+          "email": "fernanda.santos@email.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Ricardo Almeida",
+      "endereco": {
+        "estado": "Goiás",
+        "cidade": "Goiânia",
+        "bairro": "Setor Oeste",
+        "rua": "Rua I",
+        "numero": "2021"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "999999999",
+          "email": "ricardo.almeida@email.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Mariana Oliveira",
+      "endereco": {
+        "estado": "Amazonas",
+        "cidade": "Manaus",
+        "bairro": "Adrianópolis",
+        "rua": "Avenida J",
+        "numero": "2223"
+      },
+      "contatos": [
+        {
+          "numeroTelefone": "101010101",
+          "email": "mariana.oliveira@email.com"
+        }
+      ]
+    }
+  ]
+}

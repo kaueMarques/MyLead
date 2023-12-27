@@ -22,7 +22,8 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em se
 
 ## Configuração do Ambiente
 
-Como primeiro passo é necessario deixar iniciado o Json server e o MySQL iniciados
+1. Como primeiro passo é necessario deixar iniciado o Json server e o MySQL iniciados
+2. Aicione ao seu servidor de banco de dados MySQL um banco chamado leads_db
 
 ### Configurando o Ambiente do Mock
 
